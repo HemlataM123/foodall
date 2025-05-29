@@ -1,0 +1,65 @@
+    .background{
+      height: 100vh;
+     }
+    .orange{
+        color:orangered;
+    }
+    .coffee{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./footer.png);
+        background-position: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .bgcolor{
+      background-color: orangered;
+    }
+    .blog:hover{
+          background-color: orangered;
+          color: white;
+    }
+    .lunchbtn:hover{
+      transition: transform 0.3s ease,backgroung-color 0.3s ease-in-out;
+      transform: scale(1.09);
+  }
+  .insta{
+    height:10vh;
+    width:15vw ;
+    }
+.imagecontainer{
+  position:relative;
+  overflow:hidden;
+}
+.overlay-text{
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width:100%;
+  background: rgba(0,0,0,0.6);
+  transition: opacity 0.5s;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  align-items: center;
+  transition: opacity 0.4s ease-in-out;
+    }
+  .imagecontainer:hover .overlay-text{
+    opacity:1;
+   }
+  .backimage{
+        background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./backgroundimg2.png);
+        }
+  .chef:hover{
+    transition: transform 0.3s ease,backgroung-color 0.3s ease-in-out;
+          transform: scale(1.03);
+        }
+  .about:hover{
+     transition: transform 0.3s ease,backgroung-color 0.3s ease-in-out;
+     transform: scale(1.09);
+        }
+.card-body:hover{
+  background-color:rgb(247, 75, 12);
+}
